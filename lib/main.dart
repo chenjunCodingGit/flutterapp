@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'practice/container.dart';
 
 void main() => runApp(new Myapp());
 
@@ -12,14 +13,7 @@ class Myapp extends StatelessWidget {
         primaryColor: Colors.grey[100],
         primaryColorBrightness: Brightness.light,
       ),
-      home: new Scaffold(
-        appBar: new AppBar(
-          title: new Text('home page'),
-        ),
-        body: new Center(
-          child: new Text('body'),
-        ),
-      ),
+      home: new MyScaffold(),
     );
   }
 }
