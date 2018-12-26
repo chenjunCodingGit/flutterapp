@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 // import 'practice/container.dart';
 // import 'practice/tutoraler.dart';
 // import 'practice/buttoner.dart';
-import 'practice/parentProducter.dart';
-import 'practice/producter.dart';
+// import 'practice/parentProducter.dart';
+// import 'practice/producter.dart';
 import 'views/counter.dart';
 
 void main() => runApp(new Myapp());
