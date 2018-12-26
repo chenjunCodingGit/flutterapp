@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 // import 'practice/buttoner.dart';
 import 'practice/parentProducter.dart';
 import 'practice/producter.dart';
+import 'views/counter.dart';
 
 void main() => runApp(new Myapp());
 
@@ -16,14 +17,15 @@ class Myapp extends StatelessWidget {
         primaryColor: Colors.grey[100],
         primaryColorBrightness: Brightness.light,
       ),
-      home: new ShoppingList(
-        products: <Product>[
-          new Product(name: 'Eggs'),
-          new Product(name: 'Flour'),
-          new Product(name: 'Flour'),
-          new Product(name: 'Chocolate chips'),
-        ],
-      ),
+      home: new MyCounter(),
+      // home: new ShoppingList(
+      //   products: <Product>[
+      //     new Product(name: 'Eggs'),
+      //     new Product(name: 'Flourddd'),
+      //     new Product(name: 'Flour'),
+      //     new Product(name: 'Chocolate chips'),
+      //   ],
+      // ),
     );
   }
 }
