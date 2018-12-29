@@ -4,7 +4,9 @@ import 'package:flutter/material.dart';
 // import 'practice/buttoner.dart';
 // import 'practice/parentProducter.dart';
 // import 'practice/producter.dart';
-import 'views/counter.dart';
+// import 'views/counter.dart';
+// import 'views/tapboxer.dart';
+import 'views/mixTapboxer.dart';
 
 void main() => runApp(new Myapp());
 
@@ -12,12 +14,12 @@ class Myapp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'chenjun_app',
+      title: 'my_app',
       theme: new ThemeData(
         primaryColor: Colors.grey[100],
         primaryColorBrightness: Brightness.light,
       ),
-      home: new MyCounter(),
+      home: new ParentWidgetC(),
       // home: new ShoppingList(
       //   products: <Product>[
       //     new Product(name: 'Eggs'),
