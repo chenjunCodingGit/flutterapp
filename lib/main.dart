@@ -13,7 +13,7 @@ class Myapp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'chenjun_app',
+      title: 'my_app',
       theme: new ThemeData(
         primaryColor: Colors.grey[100],
         primaryColorBrightness: Brightness.light,
