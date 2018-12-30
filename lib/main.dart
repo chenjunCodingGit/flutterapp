@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 // import 'practice/parentProducter.dart';
 // import 'practice/producter.dart';
 import 'views/counter.dart';
+import 'practice/stateCycle.dart';
 
 void main() => runApp(new Myapp());
 
@@ -17,7 +18,7 @@ class Myapp extends StatelessWidget {
         primaryColor: Colors.grey[100],
         primaryColorBrightness: Brightness.light,
       ),
-      home: new MyCounter(),
+      home: new CounterWidget(),
       // home: new ShoppingList(
       //   products: <Product>[
       //     new Product(name: 'Eggs'),
