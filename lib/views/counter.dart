@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fone/views/newrouter.dart';
+// import 'package:fone/views/newrouter.dart';
+import 'package:fone/views/InfiniteScroller.dart';
 
 class MyCounter extends StatelessWidget {
   @override
